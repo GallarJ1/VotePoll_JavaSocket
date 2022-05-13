@@ -1,11 +1,6 @@
  import java.net.*;
 import java.io.*;
 
-/**
- * This class is a module which provides the application logic
- * for an Echo client using connectionless datagram socket.
- * @author M. L. Liu
- */
 public class EchoClientHelper2 {
    private MyStreamSocket mySocket;
    private InetAddress serverHost;
