@@ -1,9 +1,4 @@
 import java.io.*;
-/**
- * This module is to be used with a concurrent Echo server.
- * Its run method carries out the logic of a client session.
- * @author M. L. Liu
- */
 
 class EchoServerThread implements Runnable {
    static final String endMessage = ".";
