@@ -1,11 +1,6 @@
 import java.net.*;
 import java.io.*;
 
-/**
- * A subclass of DatagramSocket which contains 
- * methods for sending and receiving messages
- * @author M. L. Liu
- */
 public class MyDatagramSocket extends DatagramSocket {
    static final int MAX_LEN = 100;  
    MyDatagramSocket( )  throws SocketException{
